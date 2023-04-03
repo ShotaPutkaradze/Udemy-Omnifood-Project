@@ -38,6 +38,13 @@ Primary: #e67e22
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem hsla(28, 80%, 52%, 0.5);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -82,6 +89,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
