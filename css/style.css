@@ -10,6 +10,7 @@
 
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -24,7 +25,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -55,6 +56,24 @@
   background-color: #cf711f;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+
+  display: none;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /**********************/
 /**Head Section**/
 /**********************/
@@ -78,6 +97,10 @@
   font-size: 2rem;
   line-height: 1.5;
   margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .btn,
@@ -131,10 +154,6 @@
 .btn--form:hover {
   background-color: #fff;
   color: #555;
-}
-
-.hero-img {
-  width: 100%;
 }
 
 .delivered-meals {
@@ -364,6 +383,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
