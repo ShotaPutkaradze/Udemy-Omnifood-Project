@@ -648,6 +648,12 @@
   transition: all 0.3s;
 }
 
+.social-links .footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-link:hover,
 .footer-link:active {
   color: #555;
